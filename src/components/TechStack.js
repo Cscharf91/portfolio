@@ -3,7 +3,7 @@ import React from 'react';
 const TechStack = () => {
     return (
         <div className="tech-stack">
-            <h3>Languages:</h3>
+            <h3>Skills:</h3>
             <p>Ruby on Rails, JavaScript, CSS3, HTML5, React, PostgreSQL, Ruby, Git, Webpack, Testing with Rspec and Jest</p>
             <div className="stack">
                 <img alt="rails" id="rails" src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png"/>
