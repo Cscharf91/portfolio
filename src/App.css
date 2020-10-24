@@ -88,7 +88,6 @@ a {
   display: grid;
   align-items: center;
   grid-template-columns: 1fr 3fr;
-  /* border-radius: 20px; */
 }
 
 .about-title {
@@ -375,16 +374,21 @@ a {
 }
 
 @media (max-width: 700px) {
+
+  .hero {
+    height: 50vh;
+  }
+
   .title-1 {
     border-right: 15px solid;
-    margin-top: 135px;
+    /* margin-top: 105px; */
     font-size: 40px;
     padding: 0px;
   }
 
   .title-2 {
     border-left: 15px solid;
-    margin-top: 255px;
+    margin-top: 95px;
     font-size: 21px;
     padding: 0px;
   }
