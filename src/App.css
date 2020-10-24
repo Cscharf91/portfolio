@@ -388,4 +388,12 @@ a {
     font-size: 21px;
     padding: 0px;
   }
+
+  #about {
+    grid-template-columns: 1fr;
+  }
+
+  .headshot-container {
+    margin: 30px auto;
+  }
 }
