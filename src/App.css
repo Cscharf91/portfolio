@@ -88,7 +88,7 @@ a {
   display: grid;
   align-items: center;
   grid-template-columns: 1fr 3fr;
-  border-radius: 20px;
+  /* border-radius: 20px; */
 }
 
 .about-title {
