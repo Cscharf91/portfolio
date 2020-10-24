@@ -75,6 +75,7 @@ const Projects = () => {
                         <ul>
                             <li>All legal chess moves</li>
                             <li>En Passant pawns</li>
+                            <li>Castling</li>
                             <li>Pawn promotion</li>
                             <li>Each player's move is reviewed every turn for check conditions</li>
                             <li>If there's a check, all moves in response are reviewed for checkmate</li>

@@ -91,14 +91,41 @@ a {
   border-radius: 20px;
 }
 
+.about-title {
+  font-size: 38px;
+  background: rgb(10, 10, 10);
+  border: 1px solid;
+  border-left: 10px solid;
+  border-right: 10px solid;
+}
+
 .about-info {
   font-weight: 800;
   margin-left: 20px;
 }
 
+
 #about h2 {
   text-align: center;
   grid-column: 1 / -1;
+}
+
+.contact-container {
+  grid-column: 1 / -1;
+  width: 80%;
+  margin: 30px auto;
+  padding: 30px;
+  background: rgb(27, 27, 27);
+  color: white;
+  display: grid;
+  align-items: center;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.contact-info {
+  font-weight: 800;
+  margin: auto;
 }
 
 #rails {
@@ -250,6 +277,23 @@ a {
   width: 300px;
 }
 
+.footer {
+  grid-column: 1 / -1;
+  margin: auto;
+  height: 100px;
+  color: white;
+  text-align: center;
+}
+
+.footer a {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.contact-link {
+  border-bottom: 1px solid;
+}
+
 @media (min-width: 1255px) {
   .hero {
     grid-column: 1 / -1;
@@ -281,6 +325,16 @@ a {
     border-radius: 0;
   }
 
+  .contact-container {
+    width: 50%;
+    margin: 20px auto;
+  }
+
+  .about-title {
+    width: 50%;
+    margin: 20px auto;
+  }
+
   .project-container {
     border: 1px solid;
   }
@@ -293,6 +347,14 @@ a {
   .project-title {
     width: 67%;
     height: 50px;
+  }
+
+  .project-bio {
+    font-size: 20px;
+  }
+
+  .project-desc {
+    font-size: 22px;
   }
 }
 
