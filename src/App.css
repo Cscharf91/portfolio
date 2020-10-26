@@ -385,14 +385,14 @@ a {
   .title-1 {
     border-right: 15px solid;
     /* margin-top: 105px; */
-    font-size: 40px;
+    font-size: 30px;
     padding: 0px;
   }
 
   .title-2 {
     border-left: 15px solid;
     margin-top: 115px;
-    font-size: 21px;
+    font-size: 15px;
     padding: 0px;
   }
 
