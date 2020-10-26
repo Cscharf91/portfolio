@@ -1,6 +1,7 @@
 html {
   background: black;
   scroll-behavior: smooth;
+  overflow-x:hidden;
 }
 
 a {
@@ -200,8 +201,6 @@ a {
   /* background: rgb(38, 41, 47); */
   background: rgb(31, 30, 30);
   width: 100%;
-  border-top: 1px solid;
-  border-bottom: 1px solid;
   text-align: center;
   padding: 10px;
   display: grid;
@@ -244,9 +243,9 @@ a {
   margin-left: 10px;
   /* margin-bottom: 10px; */
   font-size: 15px;
-  border: none;
   width: 150px;
   height: 60px;
+  border: 1px solid;
   border-radius: 15px;
   background: black;
   color: white;
@@ -257,7 +256,6 @@ a {
 }
 
 .chess-pic {
-  width: 340px !important;
   align-self: center !important;
   grid-row: 2;
 }
@@ -273,7 +271,7 @@ a {
 }
 
 .project-container img {
-  width: 300px;
+  width: 400px;
 }
 
 .footer {
@@ -296,6 +294,12 @@ a {
 @media (min-width: 1255px) {
   .hero {
     grid-column: 1 / -1;
+  }
+
+  .project-container img {
+    justify-self: start;
+    margin-left: 30px;
+    width: 600px;
   }
 
   /* .title-2 {
@@ -334,12 +338,8 @@ a {
     margin: 20px auto;
   }
 
-  .project-container {
-    border: 1px solid;
-  }
-
   .projects-section {
-    width: 80%;
+    width: 100%;
     margin: auto;
   }
 
@@ -388,7 +388,7 @@ a {
 
   .title-2 {
     border-left: 15px solid;
-    margin-top: 95px;
+    margin-top: 115px;
     font-size: 21px;
     padding: 0px;
   }
