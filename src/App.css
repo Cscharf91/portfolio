@@ -203,7 +203,7 @@ a {
 .project-container {
   /* background: rgb(38, 41, 47); */
   background: rgb(31, 30, 30);
-  width: auto;
+  /* width: auto; */
   text-align: center;
   padding: 10px;
   display: grid;
@@ -342,7 +342,7 @@ a {
   }
 
   .projects-section {
-    width: 100%;
+    /* width: auto; */
     margin: auto;
   }
 
@@ -380,6 +380,10 @@ a {
 
   .hero {
     height: 50vh;
+  }
+
+  .project-pic {
+    /* width: 200px; */
   }
 
   .title-1 {
