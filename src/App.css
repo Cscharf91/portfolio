@@ -382,8 +382,8 @@ a {
     height: 50vh;
   }
 
-  .project-pic {
-    /* width: 200px; */
+  .project-container img {
+    width: 300px;
   }
 
   .title-1 {
