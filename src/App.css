@@ -1,4 +1,4 @@
-html {
+html, body {
   background: black;
   scroll-behavior: smooth;
   overflow-x:hidden;
@@ -73,14 +73,14 @@ a {
   height: 190px;
   object-fit: cover;
 }
-
+/* 
 .headshot-container {
   margin-top: -75px;
   margin-left: 20px;
   width: 190px;
   height: 190px;
   border: 1px solid black;
-}
+} */
 
 #about {
   width: 80%;
@@ -203,7 +203,7 @@ a {
 .project-container {
   /* background: rgb(38, 41, 47); */
   background: rgb(31, 30, 30);
-  width: 100%;
+  width: auto;
   text-align: center;
   padding: 10px;
   display: grid;
