@@ -69,14 +69,16 @@ a {
 }
 
 .headshot {
-  width: 160px;
+  width: 190px;
+  height: 190px;
+  object-fit: cover;
 }
 
 .headshot-container {
-  margin-top: -40px;
+  margin-top: -75px;
   margin-left: 20px;
-  width: 160px;
-  height: 147px;
+  width: 190px;
+  height: 190px;
   border: 1px solid black;
 }
 
@@ -161,6 +163,7 @@ a {
   margin: auto;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  padding-bottom: 10px;
 }
 
 #react {
