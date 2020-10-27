@@ -299,6 +299,11 @@ a {
     grid-column: 1 / -1;
   }
 
+  .project-container {
+    grid-template-columns: 6fr 7fr 1fr;
+    padding-top: 60px;
+  }
+  
   .project-container img {
     justify-self: start;
     margin-left: 30px;
@@ -353,14 +358,15 @@ a {
   .project-title {
     width: 67%;
     height: 50px;
+    font-size: 46px;
   }
 
   .project-bio {
-    font-size: 20px;
+    font-size: 26px;
   }
 
   .project-desc {
-    font-size: 22px;
+    font-size: 26px;
   }
 }
 
