@@ -254,6 +254,7 @@ a {
 }
 
 .project-pic {
+  border: 1px solid;
   grid-row: 2;
 }
 

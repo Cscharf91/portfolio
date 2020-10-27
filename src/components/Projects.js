@@ -2,6 +2,7 @@ import React from 'react';
 import Battleship from '../../src/images/battleship.png';
 import RJS from '../../src/images/rjs-billing.png';
 import Chess from '../../src/images/chess.png';
+import FBClone from '../../src/images/fb-clone.png';
 
 const Projects = () => {
     return (
@@ -29,6 +30,26 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="project-container">
+                    <p className="project-title">BookFace:</p>
+                    <p className="project-bio">A social network website based off of Facebook. Created in Rails.</p>
+                    <img src={FBClone} alt="fb-clone" className="project-pic" /><br />
+                    <div className="project-desc">
+                        <p>Features:</p>
+                        <ul>
+                            <li>Create a user, upload your profile picture, and edit your profile info</li>
+                            <li>Send friend requests with the ability to accept/deny incoming requests</li>
+                            <li>Post, and comment on posts</li>
+                            <li>Make posts public (all users can view them), or visible to friends only</li>
+                            <li>Like posts</li>
+                            <li>Omniauth2 Facebook Login</li>
+                        </ul>
+                    </div>
+                    <div className="btn-container">
+                        <a href="https://fast-sierra-54264.herokuapp.com/" rel="noopener noreferrer" target="_blank"><button>View Website</button></a>
+                        <a href="https://github.com/Cscharf91/facebook-clone" rel="noopener noreferrer" target="_blank"><button>View Code</button></a> 
+                    </div>
+                </div>
+                <div className="project-container">
                     <p className="project-title">Battleship:</p>
                     <p className="project-bio">The classic game, adapted to the web. Made in react with jest testing.</p>
                     <img src={Battleship} alt="Battleship" className="project-pic" /><br />
@@ -45,25 +66,6 @@ const Projects = () => {
                     <div className="btn-container">
                         <a href="https://cscharf91.github.io/battleship/" rel="noopener noreferrer" target="_blank"><button>View Website</button></a>
                         <a href="https://github.com/Cscharf91/battleship" rel="noopener noreferrer" target="_blank"><button>View Code</button></a> 
-                    </div>
-                </div>
-                <div className="project-container">
-                    <p className="project-title">BookFace:</p>
-                    <p className="project-bio">A social network website based off of Facebook. Created in Rails.</p>
-                    <h1 className="project-pic">TODO: CSS Styling (it currently has a barebones layout)</h1>
-                    <div className="project-desc">
-                        <p>Features:</p>
-                        <ul>
-                            <li>Made with test-driven-development practices</li>
-                            <li>Place your ships on your board, rotate them vertically or horizontally</li>
-                            <li>Start making guesses on the opposing player's board</li>
-                            <li>CPU will make a random legal move each turn</li>
-                            <li>First player to sink all the other's ships wins!</li>
-                        </ul>
-                    </div>
-                    <div className="btn-container">
-                        <a href="https://fast-sierra-54264.herokuapp.com/" rel="noopener noreferrer" target="_blank"><button>View Website</button></a>
-                        <a href="https://github.com/Cscharf91/facebook-clone" rel="noopener noreferrer" target="_blank"><button>View Code</button></a> 
                     </div>
                 </div>
                 <div className="project-container">
