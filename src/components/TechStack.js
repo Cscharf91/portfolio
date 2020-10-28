@@ -4,7 +4,18 @@ const TechStack = () => {
     return (
         <div className="tech-stack">
             <h3>Skills:</h3>
-            <p>Ruby on Rails, JavaScript, CSS3, HTML5, React, PostgreSQL, Ruby, Git, Webpack, Testing with Rspec and Jest</p>
+            <ul>
+                <li>Ruby on Rails</li>
+                <li>JavaScript</li>
+                <li>CSS3</li>
+                <li>HTML5</li>
+                <li>React</li>
+                <li>PostgreSQL</li>
+                <li>Ruby</li>
+                <li>Git</li>
+                <li>Webpack</li>
+                <li>Testing with Rspec and Jest</li>
+            </ul>
             <div className="stack">
                 <img alt="rails" id="rails" src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png"/>
                 <img alt="javascript" src="https://img.icons8.com/color/48/000000/javascript.png"/>

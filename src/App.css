@@ -158,6 +158,12 @@ a {
   padding: 15px;
 }
 
+.tech-stack ul {
+  text-align: left;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
 .stack {
   margin: auto;
   display: grid;
@@ -170,8 +176,8 @@ a {
 }
 
 .tech-container {
+  text-align: left;
   margin: auto;
-  width: 80%;
 }
 
 .projects {
@@ -316,7 +322,7 @@ a {
 
   .tech-container {
     display: block;
-    margin-right: 0px;
+    /* margin-right: 0px; */
   }
 
   .tech-stack {

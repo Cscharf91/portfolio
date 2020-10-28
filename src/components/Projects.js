@@ -59,7 +59,7 @@ const Projects = () => {
                             <li>Made with test-driven-development practices</li>
                             <li>Place your ships on your board, rotate them vertically or horizontally</li>
                             <li>Start making guesses on the opposing player's board</li>
-                            <li>CPU will make a random legal move each turn</li>
+                            <li>Implemented CPU AI</li>
                             <li>First player to sink all the other's ships wins!</li>
                         </ul>
                     </div>
@@ -75,10 +75,7 @@ const Projects = () => {
                     <div className="project-desc">
                         <p>Features:</p>
                         <ul>
-                            <li>All legal chess moves</li>
-                            <li>En Passant pawns</li>
-                            <li>Castling</li>
-                            <li>Pawn promotion</li>
+                            <li>All legal chess moves (including castling/en passant) developed with a full coordinate based grid system using arrays</li>
                             <li>Each player's move is reviewed every turn for check conditions</li>
                             <li>If there's a check, all moves in response are reviewed for checkmate</li>
                             <li>Save and load your games at any point with serialization</li>
