@@ -70,6 +70,7 @@ a {
 
 .headshot {
   width: 160px;
+  border-radius: 100%;
   margin-top: -80px;
 }
 /* 
@@ -358,7 +359,8 @@ a {
   }
 
   .headshot {
-    margin-top: -100px;
+    margin-top: -120px;
+    margin-left: 40px;
   }
 
   .project-title {
@@ -422,5 +424,9 @@ a {
 
   .headshot-container {
     margin: 30px auto;
+  }
+
+  .headshot {
+    margin-top: 0;
   }
 }
