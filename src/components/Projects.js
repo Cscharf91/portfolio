@@ -3,6 +3,7 @@ import Battleship from '../../src/images/battleship.png';
 import RJS from '../../src/images/rjs-billing.png';
 import Chess from '../../src/images/chess.png';
 import FBClone from '../../src/images/fb-clone.png';
+import TradeTracker from '../../src/images/trade-tracker-preview.png';
 
 const Projects = () => {
     return (
@@ -10,6 +11,24 @@ const Projects = () => {
             <h3 className="projects-head">Projects</h3>
             {/* <a href="https://github.com/Cscharf91/" alt="github">Click here to view my full Github</a> */}
             <div className="projects-section">
+                <div className="project-container">
+                    <p className="project-title">Trade Tracker:</p>
+                    <p className="project-bio">Built in Rails and React to enter stock trade data to see how different stategies are performing.</p>
+                    <img src={TradeTracker} alt="Trade Tracker" className="project-pic" /><br />
+                    <div className="project-desc">
+                        <p>Features:</p>
+                        <ul>
+                            <li>User authorization with Devise, keeping each user's trades private</li>
+                            <li>Live data updating with a React front end using a Rails API</li>
+                            <li>Filter your trades to see how certain strategies compare to others</li>
+                            <li>View statistics to save time number crunching</li>
+                        </ul>
+                    </div>
+                    <div className="btn-container">
+                        <a href="https://powerful-chamber-15419.herokuapp.com/" rel="noopener noreferrer" target="_blank"><button>View Website</button></a>
+                        <a href="https://github.com/Cscharf91/stock-trade-tracker" rel="noopener noreferrer" target="_blank"><button>View Code</button></a> 
+                    </div>
+                </div>
                 <div className="project-container">
                     <p className="project-title">RJS Billing:</p>
                     <p className="project-bio">A mock-up collection agency website. Made in Rails. Try out admin abilities with username: guest@guest.com password: guestpass1.</p>
